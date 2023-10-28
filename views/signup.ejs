@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/dist/styles.css" />
+    <title>signup</title>
+  </head>
+  <body>
+    <main class="signups">
+      <div class="logo-side"><%- include('svg.ejs') %></div>
+      <div class="title"><h1>Sign Up</h1></div>
+      <div class="name-section">
+        <input type="text" placeholder="Enter name" />
+      </div>
+      <div class="email-section">
+        <input type="email" placeholder="Enter E-mail" />
+      </div>
+      <div class="phoneno-section">
+        <input type="number" placeholder="Enter phone Number" />
+      </div>
+      <div class="password-section">
+        <input type="password" placeholder="Enter password" />
+      </div>
+      <div class="password-section">
+        <input type="password" placeholder="Re-enter password" />
+      </div>
+      <div class="signup-btn">
+        <button value="signup" id="signup-btn">Sign Up</button>
+      </div>
+      <div class="login-option">
+        <h2>
+          Have an Account? <a href="<%- include('login.ejs') %>">Login</a>
+        </h2>
+      </div>
+    </main>
+    <script src="<%- include('text.js') %>"></script>
+  </body>
+</html>

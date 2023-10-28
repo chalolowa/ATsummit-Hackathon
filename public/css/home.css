@@ -1,0 +1,36 @@
+home {
+  color: green;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+.home {
+  text-align: center;
+  padding: 20px;
+}
+
+.home h1 {
+  color: #333;
+}
+
+.card {
+  border: 1px solid #18cd12;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 20px;
+}
+
+.card .card-img-top {
+  width: 100%;
+}
+
+.card .card-body {
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
